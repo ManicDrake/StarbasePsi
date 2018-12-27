@@ -1,0 +1,19 @@
+<html>
+
+<head>
+    <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+</head>
+
+<body>
+    <a-scene>
+        <a-assets>
+            <img height="32px" width="32px" id="hull" src="texture/hull.png">
+        </a-assets>
+
+        <!-- <a-image src="texture/hull.png" position="0 1.25 -1" rotation="0 135 0"></a-image> -->
+        <a-entity geometry="primitive: box" scale="0.5 0.5 0.5" material="src: #hull" position="0 1 -1" rotation="0 45 0"></a-entity>
+        <!-- <a-box src="texture/hull.png" position="0.5 0.5 -3"></a-box> -->
+    </a-scene>
+</body>
+
+</html>
